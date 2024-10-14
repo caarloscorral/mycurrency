@@ -35,6 +35,7 @@ MyCurrency is a web platform that allows users to calculate currency exchange ra
 
 4. **Set up the database:**
    ```bash
+   python manage.py makemigrations exchange_rates
    python manage.py migrate exchange_rates
    ```
 
