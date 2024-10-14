@@ -61,12 +61,6 @@ MyCurrency is a web platform that allows users to calculate currency exchange ra
    python manage.py runserver
    ```
 
-7. **Run Redis server:**
-   - Ensure Redis is running as it acts as the broker for Celery tasks.
-   ```bash
-   redis-server
-   ```
-
 ## Using the API
 
 ### Overview
